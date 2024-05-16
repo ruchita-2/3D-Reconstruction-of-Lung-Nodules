@@ -6,23 +6,23 @@ Lung nodules are small masses of tissue in the lungs that are typically detected
 1. Better Visualization: 
    Due to their small size, a 3D Reconstructed model of the lung nodule can aid in better understanding their characteristics.
 2. Accurate Measurements: 
-   Measurements of lung nodules can be crucial for monitoring changes in nodule size over time, which can help in distinguishing between benign and malignant nodules and in determining the appropriate course of 
+   Measurement of lung nodules can be crucial for monitoring changes in nodule size over time, which can help in distinguishing between benign and malignant nodules and in determining the appropriate course of 
    action.
 3. Treatment Planning: 
    3D reconstruction helps in surgical planning where the reconstructed images can be used to ensure optimal outcomes.
 
 ## Dataset
 
-The LUNA16 dataset is used which is a subset of the LIDC-IDRI dataset. It consists of CT Scan data in the mhd/raw format. An annotations file is also provided that includes details such as X, Y, Z coordinate and the diameter of the nodule.
+The LUNA16 dataset, a subset of the LIDC-IDRI dataset is used. It consists of CT Scan data in the mhd/raw format. An annotations file is also provided that includes details such as X, Y, Z coordinates and the diameter of the nodule.
 
 ## Methodology
 
 1. Image preprocessing:
 
 Two main pre-processing steps are performed:
-- Nodule Mask Generation
+- Nodule Mask Generation: 
   Using the annotations and diameter provided in the dataset, nodule masks are extracted by performing a threshold-based segmentation, where the threshold is chosen using K-means clustering. 
-- Lung Segmentation
+- Lung Segmentation: 
   A similar threshold-based segmentation is performed along with applying some post processing to extract segmented lung images.
 
 The extracted Nodule Masks and Segmented Lung Images are stored as .npy files. They serve as input to the UNet model.
