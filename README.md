@@ -3,12 +3,12 @@
 Lung nodules are small masses of tissue in the lungs that are typically detected on imaging tests like chest X-rays or CT scans. They can vary in size from a few millimeters to a few centimeters in diameter. Majority of the Lung nodules are non-cancerous (benign). The importance of lung nodules lies in their potential as early indicators of lung cancer. Detecting lung cancer at an early stage significantly improves the chances of successful treatment and survival. Several factors are considered when assessing lung nodules, including their size, shape, density, and growth rate. 
 
 3D Reconstruction can help with the following:
-1. Better Visualization
+1. Better Visualization: 
    Due to their small size, a 3D Reconstructed model of the lung nodule can aid in better understanding their characteristics.
-2. Accurate Measurements
+2. Accurate Measurements: 
    Measurements of lung nodules can be crucial for monitoring changes in nodule size over time, which can help in distinguishing between benign and malignant nodules and in determining the appropriate course of 
    action.
-3. Treatment Planning
+3. Treatment Planning: 
    3D reconstruction helps in surgical planning where the reconstructed images can be used to ensure optimal outcomes.
 
 ## Dataset
