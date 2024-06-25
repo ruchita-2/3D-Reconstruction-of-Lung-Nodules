@@ -1,1 +1,0 @@
-The "NoduleMasks" folder consists of the ground truth nodule masks that can be used for 3D Model reconstruction.
