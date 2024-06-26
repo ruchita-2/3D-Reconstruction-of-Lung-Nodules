@@ -42,7 +42,7 @@ The extracted Nodule Masks and Segmented Lung Images are stored as .npy files. T
 
 ## Results
 
-- The trained UNet model achieved a Dice coefficient of 0.5753 on the test dataset.
+- The trained UNet model achieved a Dice coefficient of 0.8233 on the test dataset.
 
 ## Acknowledgments
 
